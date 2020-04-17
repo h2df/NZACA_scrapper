@@ -8,7 +8,7 @@ BASE_URL = "https://nzaca.org.nz/members/nzaca-provider-homes/"
 
 def is_entry_title(t):
     """
-    The site uses inconsistent CSS for entry titles. A entry title is:
+    The site uses inconsistent tags for entry titles. A entry title is:
     1. H3 followed by p (containing detail)
     2. P with spans inside but not those containing details
     """
